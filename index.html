@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- now navbar -->
+
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contacts</li>
+        </ul>
+
+        <img src="./Images/menu-btn.png" alt="" class="menu-btn">
+
+        <!-- adding menu button  -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>Welcome to True Tourism</h1>
+
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- events  -->
+
+    <section class="events">
+        <div class="title">
+            <h1>UPCOMING EVENTS</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="./Images/img1.png" alt="">
+                <h4>Mountain Treking</h4>
+                <p>The weather attracts your attention on the mountains on your trek. Follow along the mountain and trek with your friends.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col">
+                <img src="./Images/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Walk along the foothills and enjoy the cool winds.True tourism helps you to fulfil your dreams.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section class="explore">
+
+        <div class="explore-content"><h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam ut explicabo cupiditate odio quidem voluptate, vel ratione cumque nesciunt sequi magni, iusto totam eligendi optio? Nobis porro tempore ea!</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING  TOURS  &  DESTINTION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam magnam, dolor perferendis molestias ut modi pariatur natus fugit excepturi libero itaque explicabo.                    
+                </P>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./Images/img3.png" alt="">
+                    <img src="./Images/img4.png" alt="">
+                    <img src="./Images/img5.png" alt="">
+                    <img src="./Images/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- now making the footer  -->
+
+    <section class="footer">
+        <p>5th Avenue Street near apple cafe , Downtown Road Las vegas </p>
+        <p>copywrite@2022 True Tourism</p>
+        <div class="line"></div>
+    </section>
+
+    <script>
+         const menuBtn= document.querySelector('.menu-btn')
+        const navLinks= document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    
+</body>
+</html>
